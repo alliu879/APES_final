@@ -52,7 +52,7 @@ main img
   width: 50%;
   position: fixed;
   z-index: 1;
-  top: 200px;
+  top: 50px;
   overflow-x: hidden;
   padding-top: 20px;
 }
@@ -82,8 +82,4 @@ main img
 .centered img {
   width: 150px;
   border-radius: 50%;
-}
-
-.center {
-    text-align: center;
 }
