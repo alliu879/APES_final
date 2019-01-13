@@ -51,18 +51,20 @@
             <center><h1>To-Do List</h1></center>
         </main>
 
-        <main class="container p-5">
-            <div class="form-group">
-                <h3>Input a something to do:</h3>
-            </div>
-            <form>
+        <div class="split left">
+            <main class="container p-5">
                 <div class="form-group">
-                    <textarea id=task rows="4" cols="50">
-                    </textarea>
+                    <h3>Input a something to do:</h3>
                 </div>
-            </form>
-            <button onclick="myFunction()">Add to list</button>
-        </main>
+                <form>
+                    <div class="form-group">
+                        <textarea id=task rows="4" cols="50">
+                        </textarea>
+                    </div>
+                </form>
+                <button onclick="myFunction()">Add to list</button>
+            </main>
+        </div>
         
         <script>
             function myFunction() {
@@ -74,7 +76,7 @@
             }
         </script>
         
-        <div class="container p-5" id="list">
+        <div class="split right" id="list">
             <p id="t1">This is a paragraph.</ul>
             <p id="t2">This is another paragraph.</ul>
         </div>
