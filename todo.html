@@ -64,9 +64,17 @@
             </form>
         </main>
         
+        <div id="div1">
+            <ul id="t1">This is a paragraph.</ul>
+            <ul id="t2">This is another paragraph.</ul>
+        </div>
+        
         <script>
             function myFunction() {
-            document.write(document.getElementById("task").value);
+                var newTask = document.createElement("t");
+                var node = document.createTextNode(document.getElementById("task").value);
+                var element = document.getElementById("div1");
+                element.appendChild(newTask);
             }
         </script>
         <footer class="small text-center text-muted">
