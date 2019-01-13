@@ -83,3 +83,7 @@ main img
   width: 150px;
   border-radius: 50%;
 }
+
+.center {
+    text-align: center;
+}
