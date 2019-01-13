@@ -64,7 +64,7 @@
             </form>
         </main>
         
-        <div id="div1">
+        <main class="container p-5" id="list">
             <ul id="t1">This is a paragraph.</ul>
             <ul id="t2">This is another paragraph.</ul>
         </div>
@@ -73,7 +73,8 @@
             function myFunction() {
                 var newTask = document.createElement("t");
                 var node = document.createTextNode(document.getElementById("task").value);
-                var element = document.getElementById("div1");
+                newTask.appendChild(node);
+                var element = document.getElementById("list");
                 element.appendChild(newTask);
             }
         </script>
