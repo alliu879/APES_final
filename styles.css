@@ -52,7 +52,7 @@ main img
   width: 50%;
   position: fixed;
   z-index: 1;
-  top: 75px;
+  top: 100px;
   overflow-x: hidden;
   padding-top: 20px;
 }
