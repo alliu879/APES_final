@@ -83,3 +83,10 @@ main img
   width: 150px;
   border-radius: 50%;
 }
+
+.parent {
+  text-align: center;
+}
+.parent > ul {
+  display: inline-block;
+}
