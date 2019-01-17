@@ -91,6 +91,4 @@ main img
   display: inline-block;
 }
 
-ul {
-    list-style-position: inside;
-}
+ul { display:table; margin:0 auto;}
