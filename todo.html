@@ -63,7 +63,7 @@
         
         <script>
             function myFunction() {
-                var newTask = document.createElement("p");
+                var newTask = document.createElement("li");
                 var node = document.createTextNode(document.getElementById("task").value);
                 newTask.appendChild(node);
                 var element = document.getElementById("list");
@@ -76,7 +76,9 @@
                 <center><h1>To-Do List</h1></center>
             </div>
             <br>
-            <main id="list">
+            <main>
+                <ul id="list">
+                </ul>
             </main>
         </div>
 
